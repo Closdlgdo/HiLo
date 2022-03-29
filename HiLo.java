@@ -39,7 +39,7 @@ public class HiLo { //this class is public which means we can run it from the co
 		} while (playAgain.equalsIgnoreCase("y")); //we close the do while with a while condition to check whether the user replied with a yes. 
 		System.out.println("Thank you for playing! Adios!");
 		scan.close();
-	} // at line 36 it closes the block of code that repeats the game with a brace.
+	} 
 }/*the equals method tells you whether a string variable is exactly the same as another string of characters. The equals_ignore_case method tells you whether the 
 the strings are equal even if their capitalization is different.*/ 
 
